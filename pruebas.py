@@ -24,4 +24,13 @@ hot = TreeNode("hot",[])
 tree.addChild(hot)
 tree.addChild(cold)
 
+coffee = TreeNode("coffee",[])
+tea = TreeNode("tea",[])
+hot.addChild(coffee)
+hot.addChild(tea)
+
+cola = TreeNode("cola",[])
+fanta = TreeNode("fanta",[])
+cold.addChild(cola)
+cold.addChild(fanta)
 print(tree)
