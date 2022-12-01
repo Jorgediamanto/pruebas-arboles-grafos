@@ -1,6 +1,6 @@
 import QueueLinkedList as queue
 
-class TreeNode:      
+class TreeNode:
     def __init__(self, data):
         self.data = data
         self.leftChild = None
@@ -43,14 +43,10 @@ def levelOrderTraversal(rootNode):
     else:
         customQueue = queue.Queue()
         customQueue.enqueue(rootNode)
-        while not(customQueue.isEmpty()):
+        while not (customQueue.isEmpty()):
             root = customQueue.dequeue()
             print(root.value.data)
-            if (root.value.leftChild is not None):
-                customQueue.enqueue(root.value.leftChild)
-            
-            if (root.value.rightChild is not None):
-                customQueue.enqueue(root.value.rightChild)
+            if
 
 def searchBT(rootNode, nodeValue):
     if not rootNode:
