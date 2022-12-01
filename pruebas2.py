@@ -4,11 +4,8 @@ class TreeNode:
         self.data = data
         self.children = children
 
-    def __str__(self,level=0):
-        ret = " "*level + str(self.data) +"\n"
-        for children in self.children:
-            
-        return ret
+    def __str__():
+        
 
     def addChild(self,Treenode):
         self.children.append(Treenode)
