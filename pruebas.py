@@ -16,8 +16,12 @@ class TreeNode:
     def addChild(self,Treenode):
         self.children.append(Treenode)
 
+        
 tree = TreeNode("Drinks",[])
 print(tree)
 cold = TreeNode("cold",[])
 hot = TreeNode("hot",[])
-tree
+tree.addChild(hot)
+tree.addChild(cold)
+
+print(tree)
